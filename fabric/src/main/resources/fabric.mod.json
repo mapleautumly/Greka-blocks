@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "greka-blocks",
+  "version": "${version}",
+  "name": "Greka-Blocks",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/greka-blocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mapleautumly.grekaBlocks.fabric.GrekaBlocksFabric"
+    ],
+    "client": [
+      "net.mapleautumly.grekaBlocks.fabric.client.GrekaBlocksFabricClient"
+    ]
+  },
+  "mixins": [
+    "greka-blocks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
