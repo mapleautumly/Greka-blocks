@@ -6,8 +6,8 @@ import net.mapleautumly.grekaBlocks.tab.GrecaTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public final class GrekaBlocksMod {
-    public static final String MOD_ID = "greka-blocks";
+public final class GrekaBlocksCommon {
+    public static final String MOD_ID = "greka_blocks";
 
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
