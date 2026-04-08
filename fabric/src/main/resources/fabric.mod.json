@@ -19,10 +19,12 @@
     ],
     "client": [
       "net.mapleautumly.grekaBlocks.fabric.client.GrekaBlocksFabricClient"
+    ],
+    "fabric-datagen": [
+      "net.mapleautumly.grekaBlocks.fabric.GrekaBlocksDataGenerator"
     ]
   },
   "mixins": [
-    "greka-blocks.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.4",
@@ -32,6 +34,5 @@
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
